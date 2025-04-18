@@ -78,6 +78,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
 
+       //Доти, доки програму не зупинено або не перезапущено, вона буде працювати та можна буде обирати певні пункти меню
         while (running) {
             System.out.println("Оберіть дію:");
             System.out.println("1. Mutex");
