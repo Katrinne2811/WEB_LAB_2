@@ -49,31 +49,6 @@ public class Main {
         }
     }
 
-    //Клас задачі з пріоритетом
-    //static class PriorityTask implements Runnable, Comparable<PriorityTask> {
-        //Змінна пріоритету виконуваної задачі потоком (наприклад, threadId)
-        //private final int priority;
-        //Змінна задачі у потоці
-        //private final Runnable task;
-
-        //Конструктор об'єкта виконуваної задачі з пріоритетом
-        //public PriorityTask(int priority, Runnable task) {
-            //this.priority = priority;
-            //this.task = task;
-        //}
-
-        //@Override
-        //public void run() {
-            //task.run();
-        //}
-
-        //@Override
-        //public int compareTo(PriorityTask other) {
-            //Виконання задачі з меншим priority (номером потоку) раніше
-            //return Integer.compare(this.priority, other.priority);
-        //}
-    //}
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
@@ -85,7 +60,6 @@ public class Main {
             System.out.println("2. Semaphore");
             System.out.println("3. Atomic: not synchronized");
             System.out.println("4. Atomic: synchronized with Phaser");
-            //System.out.println("5. Atomic: synchronized with Queue");
             System.out.println("5. Pull-Thread ExecuteService");
             System.out.println("6. Matrix Multiplication");
             System.out.print("Введіть номер дії (1-6): ");
